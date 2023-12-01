@@ -1,0 +1,38 @@
+@use 'base/variabless' as v;
+@use 'base/mixins' as m; //importamos la funcion mixins desde la carpeta base
+@use '../custom' as *;
+
+.heading_footer {
+    font-size: 1.8rem;
+    font-family: 'Black Ops One';
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+}
+.sub-heading_footer {
+    font-size: 1.8rem;
+    font-family: 'Black Ops One';
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    line-height: 3rem;
+    margin: 0;
+    
+}
+.text_footer {
+    font-size: 1.6rem;
+    font-family: 'Urbanist', sans-serif;
+    text-decoration: none;
+    color: white;
+    line-height: 3rem;
+    margin: 0;
+}
+
+.l-reclamaciones {
+    max-height: 25rem;
+    max-width: 25rem;
+    margin: 0;
+}
+
+

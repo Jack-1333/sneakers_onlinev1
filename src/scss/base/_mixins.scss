@@ -1,0 +1,53 @@
+@use 'variabless' as v;
+
+//ejemplos de mixins: 
+// @mixin heading() {
+//     text-transform: uppercase;
+//     font-size: 2rem;
+//     color: black;
+//     letter-spacing: 1px;
+// }
+//Mixin configurable: se define black como color por defecto para que no salga error cuando no coloqques parametros
+//Tambien se crea la variable border-radius para utilizar el condicional
+// @mixin heading($color: black, $border-radius: false) {
+//     text-transform: uppercase;
+//     font-size: 2rem;
+//     color: $color;
+//     letter-spacing: 1px;
+
+//     //Condicionales: 
+//     @if $border-radius {
+//         border-radius: 10rem;
+
+//     }
+// }
+@mixin phone {
+    @media (min-width: v.$phone) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media (min-width: v.$tablet) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: v.$desktop) {
+        @content;
+    }
+}
+@mixin desktopLarge {
+    @media (min-width: v.$desktopLarge) {
+        @content;
+    }
+}
+@mixin grid ($columns, $gap){
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    gap: $gap;
+}
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

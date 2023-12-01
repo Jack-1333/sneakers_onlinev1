@@ -1,0 +1,18 @@
+//Colores
+$amarillo:#f4f80d;
+$rojo:#ac0808;
+
+$warning:$amarillo;
+$danger:$rojo;
+//border
+$borderespecial:#923a3a;
+$primary:$borderespecial;
+
+
+
+
+// $headings-font-family: 'Agbalumo';
+
+//Importar todo bootstrap
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';

@@ -1,0 +1,165 @@
+@use 'base/variabless' as v;
+@use 'base/mixins' as m; //importamos la funcion mixins desde la carpeta base
+@use '../custom' as *;
+
+//Information
+
+.marquee-content {
+    animation: scrolling 10s linear infinite;
+}
+.marque-item {
+    flex-shrink: 0;
+}
+@keyframes scrolling {
+    0% { transform: translateX(100%) }
+    100% { transform: translateX(-100%) }
+}
+
+.information {
+    &__text {
+        color: #00dca6 !important;
+        font-family: 'Black Ops One';
+        font-size: 1.4rem;
+    }
+}
+
+//Navigation
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color:white;
+}
+
+.marca {
+    font-size: 2.2rem;
+    font-family: 'Agbalumo';
+    text-decoration: none;
+    margin: 0;
+
+    // @include m.phone {
+    //     font-size: 2.8rem;
+    //     margin: 0;
+    // }
+    @include m.tablet {
+        font-size: 2.8rem;
+        margin: 0;
+    }
+
+    @include m.desktop {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    @include m.desktopLarge {
+        font-size: 3.6rem;
+        margin: 0;
+    }
+}
+.icons {
+    color: black;
+    font-weight: bold;
+    font-size: 1.8rem;
+
+    @include m.tablet {
+        font-size: 2.2rem;
+        margin: 0;
+    }
+
+    @include m.desktop {
+        font-size: 2.4rem;
+        margin: 0;
+    }
+
+    @include m.desktopLarge {
+        font-size: 2.8rem;
+        margin: 0;
+    }
+}
+.list-nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 2rem;
+    margin: 0 0 0 5rem;
+
+    @include m.desktop {
+        flex-direction: row;
+    }
+}
+
+.text_nav {
+    color: #3d3d3d !important;
+    font-family: 'Black Ops One';
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin: 0;
+
+    @include m.desktopLarge {
+        font-size: 2rem;
+        margin: 0;
+    }
+}
+
+.text_nav:hover {
+    // opacity: 80%;
+    // background-size: 30px;
+    // border-radius: 10px;
+    color: #923a3a !important;
+    border-bottom: #923a3a 2px solid;
+    margin: 0;
+}
+
+.open-menu,
+.close-menu {
+    display: block;
+    border: 0;
+    font-size: 2rem;
+    border: transparent;
+    cursor: pointer;
+
+    @include m.desktop {
+        display: none;
+    }
+}
+
+.content-nav {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    // height: 350rem;
+    // max-height: 100%;
+    background-color:white;
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .9);
+
+    @include m.desktop {
+        opacity: 1;
+        visibility:visible;
+        position: static;
+        background-color: none;
+        box-shadow: none;
+        height: auto;
+    }
+}
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+
