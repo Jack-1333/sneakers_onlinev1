@@ -2,21 +2,8 @@
 @use 'base/mixins' as m; //importamos la funcion mixins desde la carpeta base
 @use '../custom' as *;
 
-//Information
-
-// .marquee-content {
-//     animation: scrolling 40s linear infinite;
-// }
-// .marque-item {
-//     flex-shrink: 0;
-// }
-// @keyframes scrolling {
-//     0% { transform: translateX(100%) }
-//     100% { transform: translateX(-100%) }
-// }
-
 .information {
-    animation: movimientoL 20s linear infinite;
+    // animation: movimientoL 20s linear infinite;
     &__text {
         font-family: 'Black Ops One';
         font-size: 1rem;
@@ -30,10 +17,10 @@
         }
     }
 }
-@keyframes movimientoL {
-    0% { transform: translate(100%)}
-    100% { transform: translate(-40%) }
-}
+// @keyframes movimientoL {
+//     0% { transform: translate(100%)}
+//     100% { transform: translate(-40%) }
+// }
 //Navigation
 header {
     display: flex;
@@ -104,6 +91,7 @@ header {
 }
 
 .icons {
+
     color: #262626;
     font-weight: bold;
     font-size: 1.8rem;
@@ -125,6 +113,8 @@ header {
 }
 .icons:hover {
     color: $violet !important;
+    font-weight: bold;
+    
 }
 
 .open-menu,
@@ -152,8 +142,7 @@ header {
     top: 0;
     right: 0;
     bottom: 0;
-    // height: 350rem;
-    // max-height: 100%;
+    height: 100vh;
     background-color:white;
     padding: 2rem;
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .9);
