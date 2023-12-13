@@ -124,6 +124,7 @@ header {
     font-size: 2rem;
     border: transparent;
     cursor: pointer;
+    
 
     @include m.desktop {
         display: none;
@@ -146,6 +147,7 @@ header {
     background-color:white;
     padding: 2rem;
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .9);
+    
 
     @include m.desktop {
         opacity: 1;
