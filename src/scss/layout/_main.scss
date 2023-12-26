@@ -142,16 +142,11 @@
 
     &__icon {
         height: 60rem;
-        // margin: 2rem 0;
         position: relative;
         @include m.tablet {
             height: 70rem;
             
         }
-        // @include m.desktopLarge {
-        //     height: 49rem;
-        //     width: 44rem;
-        // }
     }
     &__boton {
         font-family: 'Agbalumo';
@@ -165,12 +160,6 @@
         background-color: #923a3a;
         border-color: #923a3a;
         margin: 35rem 0rem 0 0;
-        // @include m.tablet {
-        //     margin: 20rem 7rem 0 0;
-        // }
-        // @include m.desktopLarge {
-        //     margin: 40rem 20rem 0 0;
-        // }
     }
 
 }

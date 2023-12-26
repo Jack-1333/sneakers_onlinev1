@@ -8,39 +8,15 @@ html {
     box-sizing: inherit;
 }
 body {
-//     // font-family: Montserrat, sans-serif;
-//     font-family: v.$mainFont;
-//     // background-color: v.$green;
     font-size: 1.6rem;
+    &.no-scroll {
+        overflow: hidden;
+    }
+    &.body-scroll {
+        padding-top: 16rem;
+    }
 }
-// p {
-//     font-size: 2rem;
-//     color: v.$black;
-//     line-height: 1.5rem;
-// }
-// .container {
-//     width: 95%;
-//     max-width: 120rem;
-//     margin: 0 auto;
-// }
+
 a {
     text-decoration: none;
 }
-// h1, h2, h3 {
-//     margin: 0 0 5rem 0;
-// }
-// h1 {
-//     font-size: 4rem!important;
-// }
-// h2 {
-//     font-size: 3.6rem!important;
-// }
-// h3 {
-//     font-size: 3rem!important;
-// }
-// img {
-//     max-width: 100%;
-//     width: 100%;
-//     height: auto;
-//     display: block;
-// }
