@@ -11855,9 +11855,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.information {
-  animation: movimientoL 20s linear infinite;
-}
 .information__text {
   font-family: "Black Ops One";
   font-size: 1rem;
@@ -11875,14 +11872,6 @@ textarea.form-control-lg {
   }
 }
 
-@keyframes movimientoL {
-  0% {
-    transform: translate(100%);
-  }
-  100% {
-    transform: translate(-40%);
-  }
-}
 .header {
   background-color: white;
 }
@@ -11976,6 +11965,7 @@ textarea.form-control-lg {
   color: #262626;
   font-weight: bold;
   font-size: 2.8rem;
+  position: relative;
 }
 
 .icons-menu {
@@ -12174,27 +12164,27 @@ textarea.form-control-lg {
 
 @keyframes movimiento {
   0% {
-    transform: scale(0.7);
+    transform: scale(0.6);
     color: #b412e7;
   }
   25% {
-    transform: scale(0.9);
+    transform: scale(0.8);
     color: #b412e7;
   }
   48% {
-    transform: scale(1.1);
+    transform: scale(1);
     color: #f4f80d;
   }
   50% {
-    transform: scale(1.1);
+    transform: scale(1);
     color: #f4f80d;
   }
   52% {
-    transform: scale(1.1);
+    transform: scale(1);
     color: #f4f80d;
   }
   75% {
-    transform: scale(0.9);
+    transform: scale(0.8);
     color: #b412e7;
   }
   100% {
@@ -12229,9 +12219,14 @@ textarea.form-control-lg {
   height: 10rem;
 }
 .eleccion__content--title {
-  font-size: 3rem;
+  font-size: 2.3rem;
   font-family: "Black Ops One";
   margin: 0;
+}
+@media (min-width: 768px) {
+  .eleccion__content--title {
+    font-size: 3rem;
+  }
 }
 .eleccion__icon {
   height: 60rem;
@@ -12253,6 +12248,143 @@ textarea.form-control-lg {
   background-color: #923a3a;
   border-color: #923a3a;
   margin: 35rem 0rem 0 0;
+}
+
+.product {
+  margin: 0;
+  padding: 0;
+}
+.product_title {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.select {
+  padding: 1.5rem 0;
+}
+.select_title {
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.content {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-content: center;
+  margin: 0;
+  padding: 1rem 0 0 0;
+  row-gap: 1rem;
+}
+.content_talla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-boton {
+  width: 5rem;
+}
+
+.content-aside {
+  display: none;
+}
+
+.content-productosT {
+  display: none;
+}
+
+#openfiltro,
+#closefiltro {
+  cursor: pointer;
+}
+
+.open-filtro {
+  display: none;
+}
+
+.close-filtro {
+  display: none;
+}
+
+.modal-container {
+  width: 80%;
+  margin: 0 10%;
+  max-height: 88vh;
+  color: #fff;
+  background-color: #923a3a;
+  opacity: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*for de top*/
+  position: fixed;
+  overflow: auto;
+  z-index: 9;
+  top: 16vh;
+  scrollbar-color: none;
+}
+
+.modal-container::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #923a3a;
+  color: #fff;
+  width: 100%;
+}
+
+.modal-header-title {
+  justify-self: start;
+}
+
+.modal-header-button {
+  cursor: pointer;
+}
+
+.modal-container > .modal-contenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin: 10px;
+}
+
+.modal-container > div > img {
+  height: 120px;
+  width: 120px;
+}
+
+.total-contenido {
+  padding: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.eliminar-producto {
+  cursor: pointer;
+}
+
+.cantidad-carrito {
+  background-color: rgb(128, 6, 168);
+  border-radius: 100%;
+  display: inline-block;
+  justify-content: start;
+  width: 2.5rem;
+  line-height: 2.5rem;
+  aspect-ratio: 1;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  z-index: 8;
 }
 
 html {
