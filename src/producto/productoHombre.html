@@ -38,8 +38,8 @@
                     <!-- <a id="cerrar" class="close-menu icons"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#262626" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z"/></svg></a> -->
                     <ul class="list-nav">
                         <li><a class="text_nav" href="/index.html">Inicio</a></li>
-                        <li><a class="text_nav" href="/src/eleccion/eleccion_hombre.html">Hombres</a></li>
-                        <li><a class="text_nav" href="/src/eleccion/eleccion_mujer.html">Mujeres</a></li>
+                        <li><a class="text_nav" href="productoHombre.html">Hombres</a></li>
+                        <li><a class="text_nav" href="productoMujer.html">Mujeres</a></li>
                         <li><a class="text_nav" href="/src/eleccion/eleccion_ninos.html">Niños</a></li>
                         <li><a class="text_nav" href="/src/eleccion/eleccion_ofertas.html">Oferta</a></li>      
                         <!-- <li><a class="icons" href="src/eleccion/eleccion_ofertas.html"><i class="bi bi-person d-none d-lg-inline-block"></i></a></li>     -->
@@ -47,104 +47,109 @@
                 </nav>
             </div>
             <div class="col-lg-1 d-flex justify-content-end align-items-center gap-4">
-                <a class="d-none d-lg-block" href="/src/eleccion/eleccion_ofertas.html"><i class="bi bi-search icons"></i></a>  
-                <a class="d-none d-lg-block" href="/src/eleccion/eleccion_ofertas.html"><i class="bi bi-bag icons"></i></a>
+                <a class="d-none d-lg-block" href="#"><i class="bi bi-search icons"></i></a>  
+                <a class="d-none d-lg-block" href="#"><i id="vercarrito" class="bi bi-bag icons"></i></a>
             </div>
         </div>
     </header>
 
     <main>
         <section class="container-md">
-                <div class="row mt-5 products">
-                    <div class="col-12 products__content">
-                        <a class="products__content--title" href="#">Adidas Hombre</a>
+                <div class="row mt-5">
+                    <div class="col-6 d-flex align-items-center justify-content-start product">
+                        <h2 class="product_title">Zapatillas Hombre</h2>
                     </div>
-                    <div class="col-12 d-flex justify-content-end gap-4">
-                        <p>Ocultar Filtros</p>
+                    <div class="col-6 d-flex align-items-center justify-content-end gap-4">
+                        <p id="openfiltro" class="open-filtro">Mostrar Filtros
+                            <svg width="20" height="20" viewBox="0 0 24 24"><g fill="none" stroke="#000000" stroke-linecap="round"><path d="M10 8h10M4 16h10"/><circle cx="7" cy="8" r="3" transform="rotate(90 7 8)"/><circle cx="17" cy="16" r="3" transform="rotate(90 17 16)"/></g></svg>
+                        </p>
+                        <p id="closefiltro">Ocultar Filtros
+                            <svg width="20" height="20" viewBox="0 0 24 24"><g fill="none" stroke="#000000" stroke-linecap="round"><path d="M10 8h10M4 16h10"/><circle cx="7" cy="8" r="3" transform="rotate(90 7 8)"/><circle cx="17" cy="16" r="3" transform="rotate(90 17 16)"/></g></svg>
+                        </p>
                         <p>Ordenar Por</p>
                     </div>
                     <div class="col-12">
                         <div class="row">
-                            <div class="col-6 col-md-3">
-                                <div class="card my-3">
-                                    <img class="card-img-top" src="/src/img/productos_adidas/zapatillas-forum-low.jpg" alt="air force">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Zapatilla Air Force</h3>
-                                        <p class="card-text">Hombre Originals</p>
-                                        <a href="#" class="btn btn-primary d-block">Agregar al Carrito</a>
+                            <div id="content-aside" class="col-2">
+                                <hr>
+                                <div class="row">
+                                    <div class="col-12 select">
+                                        <h2 class="select_title">Marca</h2>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">Adidas</label>
+                                        </div>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">Nike</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-12 select">
+                                        <h2 class="select_title">Género</h2>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">Hombre</label>
+                                        </div>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">Mujer</label>
+                                        </div>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">Niño</label>
+                                        </div>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">Ofertas</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-12 select">
+                                        <h2 class="select_title">Precio</h2>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">S/.109.90 - S/.319.90</label>
+                                        </div>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">S/.329.90 - S/.519.90</label>
+                                        </div>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">S/.539.90 - S/.739.90</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-12 select">
+                                        <h2 class="select_title">Talla</h2>
+                                        <ul class="content">
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">7</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">7.5</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">8</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">8.5</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">9</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">9.5</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">10</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">10.5</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">11</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">11.5</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">12</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">13</button></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-3">
-                                <div class="card my-3">
-                                    <img class="card-img-top" src="/src/img/productos_adidas/zapatillas-forum-mid.jpg" alt="air force">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Zapatilla Air Force</h3>
-                                        <p class="card-text">Hombre Originals</p>
-                                        <a href="#" class="btn btn-primary d-block">Agregar al Carrito</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <div class="card my-3">
-                                    <img class="card-img-top" src="/src/img/productos_adidas/zapatillas-gazelle-fpf.jpg" alt="air force">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Zapatilla Air Force</h3>
-                                        <p class="card-text">Hombre Originals</p>
-                                        <a href="#" class="btn btn-primary d-block">Agregar al Carrito</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <div class="card my-3">
-                                    <img class="card-img-top" src="/src/img/productos_adidas/zapatillas-superstar.jpg" alt="air force">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Zapatilla Air Force</h3>
-                                        <p class="card-text">Hombre Originals</p>
-                                        <a href="#" class="btn btn-primary d-block">Agregar al Carrito</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6 col-md-3">
-                                <div class="card my-3">
-                                    <img class="card-img-top" src="/src/img/productos_adidas/Zapatillas_USA_84_Negro.jpg" alt="air force">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Zapatilla Air Force</h3>
-                                        <p class="card-text">Hombre Originals</p>
-                                        <a href="#" class="btn btn-primary d-block">Agregar al Carrito</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <div class="card my-3">
-                                    <img class="card-img-top" src="/src/img/productos_adidas/Zapatillas_Adistar_2.0_Beige_ID1730_HM1.jpg" alt="air force">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Zapatilla Air Force</h3>
-                                        <p class="card-text">Hombre Originals</p>
-                                        <a href="#" class="btn btn-primary d-block">Agregar al Carrito</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <div class="card my-3">
-                                    <img class="card-img-top" src="/src/img/productos_adidas/Zapatillas_USA_84_Negro.jpg" alt="air force">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Zapatilla Air Force</h3>
-                                        <p class="card-text">Hombre Originals</p>
-                                        <a href="#" class="btn btn-primary d-block">Agregar al Carrito</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <div class="card my-3">
-                                    <img class="card-img-top" src="/src/img/productos_adidas/zapatillas-rivalry-low-86.jpg" alt="air force">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Zapatilla Air Force</h3>
-                                        <p class="card-text">Hombre Originals</p>
-                                        <a href="#" class="btn btn-primary d-block">Agregar al Carrito</a>
-                                    </div>
+                            <div id="zoom" class="col-10">
+                                <div class="row" id="contenidohombre">
+                                    
+                                    
                                 </div>
                             </div>
                         </div>
@@ -204,6 +209,10 @@
             <p class="text-white text-center text_footer">2023 Sneakers Online. Todos los derechos reservados.</p>
         </div>
     </section>
+
+    <div id="modalcontainer" class="modal-container"></div>
+
+    <!-- <script src="/src/js/productos.js"></script> -->
     <script src="/src/js/app.js"></script>
     <!-- <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

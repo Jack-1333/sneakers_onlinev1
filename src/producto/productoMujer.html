@@ -38,8 +38,8 @@
                     <!-- <a id="cerrar" class="close-menu icons"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#262626" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z"/></svg></a> -->
                     <ul class="list-nav">
                         <li><a class="text_nav" href="/index.html">Inicio</a></li>
-                        <li><a class="text_nav" href="/src/eleccion/eleccion_hombre.html">Hombres</a></li>
-                        <li><a class="text_nav" href="/src/eleccion/eleccion_mujer.html">Mujeres</a></li>
+                        <li><a class="text_nav" href="productoHombre.html">Hombres</a></li>
+                        <li><a class="text_nav" href="productoMujer.html">Mujeres</a></li>
                         <li><a class="text_nav" href="/src/eleccion/eleccion_ninos.html">Niños</a></li>
                         <li><a class="text_nav" href="/src/eleccion/eleccion_ofertas.html">Oferta</a></li>      
                         <!-- <li><a class="icons" href="src/eleccion/eleccion_ofertas.html"><i class="bi bi-person d-none d-lg-inline-block"></i></a></li>     -->
@@ -47,27 +47,115 @@
                 </nav>
             </div>
             <div class="col-lg-1 d-flex justify-content-end align-items-center gap-4">
-                <a class="d-none d-lg-block" href="/src/eleccion/eleccion_ofertas.html"><i class="bi bi-search icons"></i></a>  
-                <a class="d-none d-lg-block" href="/src/eleccion/eleccion_ofertas.html"><i class="bi bi-bag icons"></i></a>
+                <a class="d-none d-lg-block" href="#"><i class="bi bi-search icons"></i></a>  
+                <!-- <a class="d-none d-lg-block" href="#"><i id="vercarrito" class="bi bi-cart3 icons"></i><span id="cantidadcarrito" class="cantidad-carrito">0</span></a> -->
+                <a class="d-none d-lg-block" href="#"><i id="vercarrito" class="bi bi-bag icons"></i><span id="cantidadcarrito" class="cantidad-carrito">0</span></a>
             </div>
         </div>
     </header>
 
     <main>
         <section class="container-md">
-            <div class="row my-3 eleccion">
-                <div class="col-12 d-flex justify-content-center align-items-center eleccion__content">
-                    <h2 class="eleccion__content--title">Elegir Marca - Mujer</h2>
+                <div class="row mt-5">
+                    <div class="col-6 d-flex align-items-center justify-content-start product">
+                        <h2 class="product_title">Zapatillas Mujer</h2>
+                    </div>
+                    <div class="col-6 d-flex align-items-center justify-content-end gap-4">
+                        <p id="openfiltro" class="open-filtro">Mostrar Filtros
+                            <svg width="20" height="20" viewBox="0 0 24 24"><g fill="none" stroke="#000000" stroke-linecap="round"><path d="M10 8h10M4 16h10"/><circle cx="7" cy="8" r="3" transform="rotate(90 7 8)"/><circle cx="17" cy="16" r="3" transform="rotate(90 17 16)"/></g></svg>
+                        </p>
+                        <p id="closefiltro">Ocultar Filtros
+                            <svg width="20" height="20" viewBox="0 0 24 24"><g fill="none" stroke="#000000" stroke-linecap="round"><path d="M10 8h10M4 16h10"/><circle cx="7" cy="8" r="3" transform="rotate(90 7 8)"/><circle cx="17" cy="16" r="3" transform="rotate(90 17 16)"/></g></svg>
+                        </p>
+                        <p>Ordenar Por</p>
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div id="content-aside" class="col-2">
+                                <hr>
+                                <div class="row">
+                                    <div class="col-12 select">
+                                        <h2 class="select_title">Marca</h2>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">Adidas</label>
+                                        </div>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">Nike</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-12 select">
+                                        <h2 class="select_title">Género</h2>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">Hombre</label>
+                                        </div>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">Mujer</label>
+                                        </div>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">Niño</label>
+                                        </div>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">Ofertas</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-12 select">
+                                        <h2 class="select_title">Precio</h2>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">S/.109.90 - S/.319.90</label>
+                                        </div>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">S/.329.90 - S/.519.90</label>
+                                        </div>
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                            <label class="form-check-label" for="flexCheckIndeterminate">S/.539.90 - S/.739.90</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-12 select">
+                                        <h2 class="select_title">Talla</h2>
+                                        <ul class="content">
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">7</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">7.5</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">8</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">8.5</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">9</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">9.5</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">10</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">10.5</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">11</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">11.5</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">12</button></li>
+                                            <li class="content_talla"><button type="button" class="edit-boton btn btn-outline-primary">13</button></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="zoom" class="col-10">
+                                <div class="row" id="contenidomujer">
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center border-top border-end border-primary">
-                    <svg class="eleccion__icon" xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 24 24"><path fill="#923a3a" d="M11.936 17.952c0-.644.517-1.16 1.162-1.16c.644 0 1.16.516 1.16 1.16a1.157 1.157 0 0 1-1.16 1.161a1.157 1.157 0 0 1-1.162-1.16m4.724 0c0-.645.517-1.162 1.161-1.162s1.161.517 1.161 1.161s-.517 1.161-1.16 1.161a1.157 1.157 0 0 1-1.162-1.16m-10.95 0c0-.645.517-1.162 1.161-1.162s1.16.517 1.16 1.161s-.516 1.161-1.16 1.161a1.157 1.157 0 0 1-1.161-1.16m-4.724 0c0-.645.517-1.162 1.161-1.162s1.161.517 1.161 1.161a1.157 1.157 0 0 1-1.161 1.161a1.157 1.157 0 0 1-1.16-1.16m9.55-2.052h-1.01v4.063h1.01v-4.063zM3.3 19.964h1.01v-4.063H3.3v.326a2.087 2.087 0 0 0-1.2-.374c-1.162 0-2.1.938-2.1 2.1c0 1.168.938 2.099 2.1 2.099c.445 0 .858-.135 1.2-.374v.286zm15.674 0h1.01v-4.063h-1.01v.326a2.087 2.087 0 0 0-1.2-.374c-1.162 0-2.1.938-2.1 2.1a2.092 2.092 0 0 0 2.1 2.099c.445 0 .858-.135 1.2-.374v.286zm1.384-1.32c.032.82.732 1.4 1.9 1.4c.955 0 1.742-.414 1.742-1.328c0-.636-.358-1.01-1.185-1.17l-.644-.126c-.414-.08-.7-.16-.7-.406c0-.27.278-.39.628-.39c.51 0 .716.255.732.557h1.018c-.056-.795-.692-1.328-1.718-1.328c-1.057 0-1.686.58-1.686 1.336c0 .922.748 1.073 1.392 1.193l.533.095c.382.072.549.183.549.406c0 .199-.191.397-.645.397c-.66 0-.874-.342-.882-.636h-1.034zM8.024 14.517v1.71a2.087 2.087 0 0 0-1.2-.374c-1.162 0-2.1.938-2.1 2.1c0 1.168.938 2.099 2.1 2.099c.444 0 .858-.135 1.2-.374v.286h1.01v-5.447h-1.01zm6.226 0v1.71a2.087 2.087 0 0 0-1.2-.374c-1.161 0-2.1.938-2.1 2.1a2.092 2.092 0 0 0 2.1 2.099c.445 0 .858-.135 1.2-.374v.286h1.01v-5.447h-1.01zm-11.626-1.2l.684 1.2h4.716l-1.869-3.229l-3.53 2.028zm7.913 2.21v-1.01h3.713l-3.96-6.855L6.751 9.69l2.776 4.827v1.01h1.01zm5.217-1.01h4.723L14.37 3.948l-3.531 2.036l4.915 8.533z"/></svg>
-                    <a class="btn btn-primary eleccion__boton" href="/src/producto/producto_adidas.html" role="button">Click Aqui</a>
-                </div>
-                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center border-top border-primary">
-                    <svg class="eleccion__icon" xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 24 24"><path fill="#923a3a" d="M24 7.8L6.442 15.276c-1.456.616-2.679.925-3.668.925c-1.12 0-1.933-.392-2.437-1.177c-.317-.504-.41-1.143-.28-1.918c.13-.775.476-1.6 1.036-2.478c.467-.71 1.232-1.643 2.297-2.8a6.122 6.122 0 0 0-.784 1.848c-.28 1.195-.028 2.072.756 2.632c.373.261.886.392 1.54.392c.522 0 1.11-.084 1.764-.252L24 7.8z"/></svg>
-                    <a class="btn btn-primary eleccion__boton" href="/src/producto/producto_nike.html" role="button">Click Aqui</a>
-                </div>
-            </div>
         </section>
     </main>
     <section class="footer bg-dark px-4 pt-4">
@@ -122,6 +210,10 @@
             <p class="text-white text-center text_footer">2023 Sneakers Online. Todos los derechos reservados.</p>
         </div>
     </section>
+
+    <div id="modalcontainer" class="modal-container"></div>
+    
+    <script src="/src/js/productosM.js"></script>
     <script src="/src/js/app.js"></script>
     <!-- <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

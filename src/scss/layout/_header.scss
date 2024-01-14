@@ -3,7 +3,9 @@
 @use '../custom' as *;
 
 .information {
-    animation: movimientoL 20s linear infinite;
+    display: none;
+    visibility: visible;
+    // animation: movimientoL 5s linear infinite;
     &__text {
         font-family: 'Black Ops One';
         font-size: 1rem;
@@ -17,10 +19,10 @@
         }
     }
 }
-@keyframes movimientoL {
-    0% { transform: translate(100%)}
-    100% { transform: translate(-40%) }
-}
+// @keyframes movimientoL {
+//     0% { transform: translate(100%)}
+//     100% { transform: translate(-40%) }
+// }
 //Navigation
 .header {
     background-color: white;
@@ -109,6 +111,8 @@
     color: #262626;
     font-weight: bold;
     font-size: 2.8rem;
+    position: relative;
+    // margin: 0;
 }
 .icons-menu {
     color: #262626;
@@ -174,7 +178,6 @@
     opacity: 1;
     visibility: visible;
 }
-
 
 
 
