@@ -70,5 +70,77 @@
         "genero": "Hombre",
         "precio": 130,
         "imagen": "../img/productos_adidas/mujer/9_Zapatillas_Falcon_Beige_IG8303_01_standard.jpg"
+    },
+    {
+        "id": 10,
+        "marca": "Adidas",
+        "modelo": "Aire Force",
+        "genero": "Hombre",
+        "precio": 110,
+        "imagen": "../img/productos_nike/mujer/1_Nike_Air_Force_1_LX_Nike_United.jpg"
+    },
+    {
+        "id": 11,
+        "marca": "Adidas",
+        "modelo": "Aire Force2",
+        "genero": "Hombre",
+        "precio": 120,
+        "imagen": "../img/productos_nike/mujer/2_Nike_Air_Force_1_Wild.jpg"
+    },
+    {
+        "id": 12,
+        "marca": "Adidas",
+        "modelo": "Aire Force2",
+        "genero": "Hombre",
+        "precio": 130,
+        "imagen": "../img/productos_nike/mujer/3_Nike_Air_Max_1_LX.jpg"
+    },
+    {
+        "id": 13,
+        "marca": "Adidas",
+        "modelo": "Aire Force",
+        "genero": "Hombre",
+        "precio": 110,
+        "imagen": "../img/productos_nike/mujer/4_Nike_Air_Max_270.jpg"
+    },
+    {
+        "id": 14,
+        "marca": "Adidas",
+        "modelo": "Aire Force2",
+        "genero": "Hombre",
+        "precio": 120,
+        "imagen": "../img/productos_nike/mujer/5_Nike_Dunk_Low_Premium_MF.jpg"
+    },
+    {
+        "id": 15,
+        "marca": "Adidas",
+        "modelo": "Aire Force2",
+        "genero": "Hombre",
+        "precio": 130,
+        "imagen": "../img/productos_nike/mujer/6_Nike_Dunk_Low_Premium.jpg"
+    },
+    {
+        "id": 16,
+        "marca": "Adidas",
+        "modelo": "Aire Force",
+        "genero": "Hombre",
+        "precio": 110,
+        "imagen": "../img/productos_nike/mujer/7_Nike_Dunk_Low_Twist.jpg"
+    },
+    {
+        "id": 17,
+        "marca": "Adidas",
+        "modelo": "Aire Force2",
+        "genero": "Hombre",
+        "precio": 120,
+        "imagen": "../img/productos_nike/mujer/8_Nike_Dunk_Low.jpg"
+    },
+    {
+        "id": 18,
+        "marca": "Adidas",
+        "modelo": "Aire Force2",
+        "genero": "Hombre",
+        "precio": 130,
+        "imagen": "../img/productos_nike/mujer/9_Nike_Dunk_Low2.jpg"
     }
 ]

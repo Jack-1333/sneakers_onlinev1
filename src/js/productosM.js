@@ -1,86 +1,88 @@
-const productosMujeres = [
-    {
-        id: 1,
-        marca: "Adidas",
-        modelo: "Aire Force",
-        genero: "Hombre",
-        precio: 110,
-        imagen: "../img/productos_adidas/mujer/1_ZAPATILLAS_EQ21_RUN.jpg",
-        cantidad: 1
-    },
-    {
-        id: 2,
-        marca: "Adidas",
-        modelo: "Aire Force2",
-        genero: "Hombre",
-        precio: 120,
-        imagen: "../img/productos_adidas/mujer/2_Zapatillas_de_Trail_Running_Tracefinder_Plomo_GZ5734_01_standard.jpg",
-        cantidad: 1
-    },
-    {
-        id: 3,
-        marca: "Adidas",
-        modelo: "Aire Force2",
-        genero: "Hombre",
-        precio: 130,
-        imagen: "../img/productos_adidas/mujer/3_Zapatillas_OZWEEGO_Rojo_HP6386_01_standard_1.jpg",
-        cantidad: 1
-    },
-    {
-        id: 4,
-        marca: "Adidas",
-        modelo: "Aire Force",
-        genero: "Hombre",
-        precio: 110,
-        imagen: "../img/productos_adidas/mujer/4_Zapatillas_Response_Verde_IG0331_01_standard.jpg",
-        cantidad: 1
-    },
-    {
-        id: 5,
-        marca: "Adidas",
-        modelo: "Aire Force2",
-        genero: "Hombre",
-        precio: 120,
-        imagen: "../img/productos_adidas/mujer/5_zapatillas-forum-mid.jpg",
-        cantidad: 1
-    },
-    {
-        id: 6,
-        marca: "Adidas",
-        modelo: "Aire Force2",
-        genero: "Hombre",
-        precio: 130,
-        imagen: "../img/productos_adidas/mujer/6_zapatillas-gazelle.jpg",
-        cantidad: 1
-    },
-    {
-        id: 7,
-        marca: "Adidas",
-        modelo: "Aire Force",
-        genero: "Hombre",
-        precio: 110,
-        imagen: "../img/productos_adidas/mujer/7_zapatillas-gazelle.jpg",
-        cantidad: 1
-    },
-    {
-        id: 8,
-        marca: "Adidas",
-        modelo: "Aire Force2",
-        genero: "Hombre",
-        precio: 120,
-        imagen: "../img/productos_adidas/mujer/8_zapatillas-rivalry-low-86.jpg",
-        cantidad: 1
-    },
-    {
-        id: 9,
-        marca: "Adidas",
-        modelo: "Aire Force2",
-        genero: "Hombre",
-        precio: 130,
-        imagen: "../img/productos_adidas/mujer/9_Zapatillas_Falcon_Beige_IG8303_01_standard.jpg",
-        cantidad: 1
-    },
-];
+// const productosMujeres = [
+//     {
+//         id: 1,
+//         marca: "Adidas",
+//         modelo: "Aire Force",
+//         genero: "Hombre",
+//         precio: 110,
+//         imagen: "../img/productos_adidas/mujer/1_ZAPATILLAS_EQ21_RUN.jpg",
+//         cantidad: 1
+//     },
+//     {
+//         id: 2,
+//         marca: "Adidas",
+//         modelo: "Aire Force2",
+//         genero: "Hombre",
+//         precio: 120,
+//         imagen: "../img/productos_adidas/mujer/2_Zapatillas_de_Trail_Running_Tracefinder_Plomo_GZ5734_01_standard.jpg",
+//         cantidad: 1
+//     },
+//     {
+//         id: 3,
+//         marca: "Adidas",
+//         modelo: "Aire Force2",
+//         genero: "Hombre",
+//         precio: 130,
+//         imagen: "../img/productos_adidas/mujer/3_Zapatillas_OZWEEGO_Rojo_HP6386_01_standard_1.jpg",
+//         cantidad: 1
+//     },
+//     {
+//         id: 4,
+//         marca: "Adidas",
+//         modelo: "Aire Force",
+//         genero: "Hombre",
+//         precio: 110,
+//         imagen: "../img/productos_adidas/mujer/4_Zapatillas_Response_Verde_IG0331_01_standard.jpg",
+//         cantidad: 1
+//     },
+//     {
+//         id: 5,
+//         marca: "Adidas",
+//         modelo: "Aire Force2",
+//         genero: "Hombre",
+//         precio: 120,
+//         imagen: "../img/productos_adidas/mujer/5_zapatillas-forum-mid.jpg",
+//         cantidad: 1
+//     },
+//     {
+//         id: 6,
+//         marca: "Adidas",
+//         modelo: "Aire Force2",
+//         genero: "Hombre",
+//         precio: 130,
+//         imagen: "../img/productos_adidas/mujer/6_zapatillas-gazelle.jpg",
+//         cantidad: 1
+//     },
+//     {
+//         id: 7,
+//         marca: "Adidas",
+//         modelo: "Aire Force",
+//         genero: "Hombre",
+//         precio: 110,
+//         imagen: "../img/productos_adidas/mujer/7_zapatillas-gazelle.jpg",
+//         cantidad: 1
+//     },
+//     {
+//         id: 8,
+//         marca: "Adidas",
+//         modelo: "Aire Force2",
+//         genero: "Hombre",
+//         precio: 120,
+//         imagen: "../img/productos_adidas/mujer/8_zapatillas-rivalry-low-86.jpg",
+//         cantidad: 1
+//     },
+//     {
+//         id: 9,
+//         marca: "Adidas",
+//         modelo: "Aire Force2",
+//         genero: "Hombre",
+//         precio: 130,
+//         imagen: "../img/productos_adidas/mujer/9_Zapatillas_Falcon_Beige_IG8303_01_standard.jpg",
+//         cantidad: 1
+//     },
+// ];
+
+ 
 
 let carrito = [];
 
@@ -93,14 +95,14 @@ productosMujeres.forEach(( producto ) => {
     const contentProductMujer = document.createElement('div');
     contentProductMujer.classList.add('col-12', 'col-md-4', 'card', 'my-3', 'py-3');
     contentProductMujer.innerHTML = `
-        <div>
+        
             <img class="card-img-top" src="${producto.imagen}" alt="air force">
             <div class="card-body">
                 <h3 class="card-title">${producto.modelo}</h3>
                 <p class="card-text">${producto.genero}</p>
                 <p class="card-text">S/. ${producto.precio}</p>
             </div>
-        </div>
+        
     `;
     contenidoMujer.append(contentProductMujer);
 

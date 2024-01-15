@@ -70,5 +70,77 @@
         "genero": "Hombre",
         "precio": 130,
         "imagen": "../img/productos_adidas/hombre/9_zapatillas-nmd_r1.jpg"
+    },
+    {
+        "id": 10,
+        "marca": "Adidas",
+        "modelo": "Aire Force",
+        "genero": "Hombre",
+        "precio": 110,
+        "imagen": "../img/productos_nike/hombre/1_Nike_Air_Force_1_07_LX.jpg"
+    },
+    {
+        "id": 11,
+        "marca": "Adidas",
+        "modelo": "Aire Force2",
+        "genero": "Hombre",
+        "precio": 120,
+        "imagen": "../img/productos_nike/hombre/2_Nike_Air_Force_1_High_07.jpg"
+    },
+    {
+        "id": 12,
+        "marca": "Adidas",
+        "modelo": "Aire Force2",
+        "genero": "Hombre",
+        "precio": 130,
+        "imagen": "../img/productos_nike/hombre/3_Nike_Air_Max_1_1.jpg"
+    },
+    {
+        "id": 13,
+        "marca": "Adidas",
+        "modelo": "Aire Force",
+        "genero": "Hombre",
+        "precio": 110,
+        "imagen": "../img/productos_nike/hombre/4_Nike_Air_Max_1.jpg"
+    },
+    {
+        "id": 14,
+        "marca": "Adidas",
+        "modelo": "Aire Force2",
+        "genero": "Hombre",
+        "precio": 120,
+        "imagen": "../img/productos_nike/hombre/5_Nike_Blazer_Low_77_Jumbo.jpg"
+    },
+    {
+        "id": 15,
+        "marca": "Adidas",
+        "modelo": "Aire Force2",
+        "genero": "Hombre",
+        "precio": 130,
+        "imagen": "../img/productos_nike/hombre/6_Nike_Blazer_Low_77_Jumbo_1.jpg"
+    },
+    {
+        "id": 16,
+        "marca": "Adidas",
+        "modelo": "Aire Force",
+        "genero": "Hombre",
+        "precio": 110,
+        "imagen": "../img/productos_nike/hombre/7_Nike_Dunk_Low_Retro_Premium.jpg"
+    },
+    {
+        "id": 17,
+        "marca": "Adidas",
+        "modelo": "Aire Force2",
+        "genero": "Hombre",
+        "precio": 120,
+        "imagen": "../img/productos_nike/hombre/8_Nike_Dunk_Low_Retro.jpg"
+    },
+    {
+        "id": 18,
+        "marca": "Adidas",
+        "modelo": "Aire Force2",
+        "genero": "Hombre",
+        "precio": 130,
+        "imagen": "../img/productos_nike/hombre/9_Nike_Dunk_Low_Retro1.jpg"
     }
 ]

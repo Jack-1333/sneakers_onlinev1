@@ -1,3 +1,6 @@
+// import {mostrarHombre} from './addProductsHombre.js'
+// import {mostrarMujer} from './addProductsMujer.js'
+
 document.addEventListener('DOMContentLoaded', () => { 
     initApp();
 });
@@ -6,6 +9,9 @@ function initApp() {
     // fixedNavigation();
     hambugerMenu();
     mostrarFiltro();
+    // mostrarHombre();
+    // mostrarMujer();
+
 }
 
 
@@ -86,12 +92,12 @@ function addElementMenu () {
     contentRegisterCar.setAttribute('id', 'content-regcar');
     contentRegisterCar.classList.add('col-12', 'd-flex', 'justify-content-end', 'align-items-center', 'gap-5')
     contentRegisterCar.innerHTML = `
-    <a class="btn btn-dark text-uppercase fs-5" href="src/eleccion/eleccion_hombre.html" role="button">Iniciar sesión</a>
-    <a class="btn btn-dark text-uppercase fs-5" href="src/eleccion/eleccion_hombre.html" role="button">Ir Al Carrito</a>`;
+    <a class="btn btn-dark text-uppercase fs-5" href="#" role="button">Iniciar sesión</a>
+    <a class="btn btn-dark text-uppercase fs-5" href="#" role="button">Ir Al Carrito</a>`;
     const marca = document.getElementById('content-navb');
     marca.insertBefore(contentTitle, marca.children[1]);
     marca.insertBefore(contentRegisterCar, marca.children[4]);
-}
+};
 
 function removeElementMenu () {
     const marca = document.getElementById('content-navb');

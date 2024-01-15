@@ -37,17 +37,19 @@
                     <!-- <a id="cerrar" class="close-menu icons"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#262626" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z"/></svg></a> -->
                     <ul class="list-nav">
                         <li><a class="text_nav" href="index.html">Inicio</a></li>
-                        <li><a class="text_nav" href="src/producto/productoHombre.html">Hombres</a></li>
-                        <li><a class="text_nav" href="src/producto/productoMujer.html">Mujeres</a></li>
-                        <li><a class="text_nav" href="src/eleccion/eleccion_ninos.html">Niños</a></li>
-                        <li><a class="text_nav" href="src/eleccion/eleccion_ofertas.html">Oferta</a></li>      
+                        <li><a class="text_nav" href="src/producto/a_productsMen.html">Hombres</a></li>
+                        <li><a class="text_nav" href="src/producto/b_productsWomen.html">Mujeres</a></li>
+                        <li><a class="text_nav" href="src/producto/c_productsChildren.html">Niños</a></li>
+                        <li><a class="text_nav" href="src/producto/d_productsOffers.html">Oferta</a></li>      
                         <!-- <li><a class="icons" href="src/eleccion/eleccion_ofertas.html"><i class="bi bi-person d-none d-lg-inline-block"></i></a></li>     -->
                     </ul>
                 </nav>
+                
             </div>
             <div class="col-lg-1 d-flex justify-content-end align-items-center gap-4">
                 <a class="d-none d-lg-block" href="src/eleccion/eleccion_ofertas.html"><i class="bi bi-search icons"></i></a>  
-                <a class="d-none d-lg-block" href="src/eleccion/eleccion_ofertas.html"><i class="bi bi-bag icons"></i></a>
+                <!-- <a class="d-none d-lg-block" href="src/eleccion/eleccion_ofertas.html"><i class="bi bi-bag icons"></i></a> -->
+                <a class="d-none d-lg-block" href="#"><i id="vercarrito" class="bi bi-bag icons"></i><span id="cantidadcarrito" class="cantidad-carrito">0</span></a>
             </div>
         </div>
     </header>
@@ -305,7 +307,11 @@
         <p class="text-white text-center text_footer">2023 Sneakers Online. Todos los derechos reservados.</p>
     </div>
 </section>
-    <script src="/src/js/app.js"></script>
+
+<div id="modalcontainer" class="modal-container"></div>
+
+    <script src="src/js/productos.js"></script>
+    <script src="src/js/app.js"></script>
     <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
