@@ -93,7 +93,7 @@ function addElementMenu () {
     contentRegisterCar.classList.add('col-12', 'd-flex', 'justify-content-end', 'align-items-center', 'gap-5')
     contentRegisterCar.innerHTML = `
     <a class="btn btn-dark text-uppercase fs-5" href="#" role="button">Iniciar sesión</a>
-    <a class="btn btn-dark text-uppercase fs-5" href="#" role="button">Ir Al Carrito</a>`;
+    <a class="btn btn-dark text-uppercase fs-5" href="/src/producto/1_carrito.html" role="button">Ir Al Carrito</a>`;
     const marca = document.getElementById('content-navb');
     marca.insertBefore(contentTitle, marca.children[1]);
     marca.insertBefore(contentRegisterCar, marca.children[4]);
