@@ -12387,6 +12387,23 @@ textarea.form-control-lg {
   z-index: 8;
 }
 
+.edit-boton-carrito {
+  width: 3rem;
+}
+
+.edit-boton-comprar {
+  width: 15rem;
+}
+
+.esconder-carrito {
+  display: none;
+}
+
+.ventana-carrito {
+  height: 60vh;
+  max-height: 100%;
+}
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;

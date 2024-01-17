@@ -1,0 +1,23 @@
+@use 'base/variabless' as v;
+@use 'base/mixins' as m; //importamos la funcion mixins desde la carpeta base
+@use '../custom' as *;
+
+
+
+
+
+.edit-boton-carrito {
+    width: 3rem;
+}
+
+.edit-boton-comprar {
+    width: 15rem;
+}
+
+.esconder-carrito {
+    display: none;
+}
+.ventana-carrito {
+    height: 60vh;
+    max-height: 100%;
+}

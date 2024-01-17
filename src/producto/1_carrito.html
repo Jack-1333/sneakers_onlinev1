@@ -55,21 +55,23 @@
     </header>
 
     <main>
-        <section id="pintarproducto" class="container-md">
-            <div class="d-flex justify-content-center align-items-center">
-                <h2>Carrito de Commpras</h2>
+        <section id="carritovacio" class="esconder-carrito container-md ventana-carrito">
+            <div class="d-flex flex-column justify-content-center align-items-center gap-4 mt-5 py-2">
+                <p class="fs-1 fw-bold text-primary">Upss!! Tu carrito está vacío..!!</p>
+                <a class="edit-boton-comprar btn btn-primary fs-4 fw-bold" href="/src/producto/d_productsOffers.html">Elegir Productos</a>
             </div>
-            
+        </section>
+        <section id="pintarproducto" class="container-md">         
 
         </section>
-        <section class="container-md">
+        <section id="totales" class="container-md">
             <div class="d-flex flex-column justify-content-center align-items-center">
                 <p>Cantidad: <span id="unidades">0</span></p>
                 <p>Total a Pagar: S/. <span id="precio">0</span></p>
             </div>
             <div class="d-flex justify-content-center align-items-center gap-4 my-2 py-2">
-                <button disabled class="btn btn-primary fs-4 fw-bold">Comprar <i class="bi bi-currency-dollar"></i></button>
-                <button class="btn btn-primary fs-4 fw-bold">Vaciar Carrito <i class="bi bi-cart4"></i></button>
+                <button disabled class="edit-boton-comprar btn btn-primary fs-4 fw-bold">Comprar <i class="bi bi-currency-dollar"></i></button>
+                <button id="vaciarcarrito" class="edit-boton-comprar btn btn-primary fs-4 fw-bold">Vaciar Carrito <i class="bi bi-cart4"></i></button>
             </div>
         </section>
     </main>
@@ -126,7 +128,8 @@
         </div>
     </section>
 
-    <div id="modalcontainer" class="modal-container"></div>
+    <div id="modalcontainer" class="modal-container">
+    </div>
 
     <script src="/src/js/productos.js"></script>
     <script src="/src/js/carrito.js"></script>

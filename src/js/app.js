@@ -47,6 +47,12 @@ function mostrarFiltro() {
         closeFiltro.classList.toggle('close-filtro');
         zoom.classList.remove("col-12");
         zoom.classList.add("col-10");
+        contentAside.classList.remove("col-2");
+        contentAside.classList.add("col-12");
+        contentAside.classList.add("col-md-2");
+        contentAside.classList.remove("col-md-12");
+        zoom.classList.add('d-none')
+        zoom.classList.add('d-md-block')
 
 
 
@@ -58,6 +64,10 @@ function mostrarFiltro() {
         closeFiltro.classList.toggle('close-filtro');
         zoom.classList.remove("col-10");
         zoom.classList.add("col-12");
+        zoom.classList.remove('d-none')
+        zoom.classList.add('d-block')
+        contentAside.classList.add("col-2");
+        contentAside.classList.remove("col-12");
 
         
     });

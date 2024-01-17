@@ -10,7 +10,7 @@ const getProductosH = async() => {
     const body = document.querySelector('body');
     dataProductosH.forEach(( producto ) => {
         const contentProductH = document.createElement("div");
-        contentProductH.classList.add('col-12', 'col-md-4', 'card', 'my-3', 'py-3');
+        contentProductH.classList.add('col-12', 'col-md-6', 'col-xl-4', 'card', 'my-3', 'py-3');
         contentProductH.innerHTML = `
                 
                     <img class="card-img-top" src="${producto.imagen}" alt="air force">
@@ -29,7 +29,7 @@ const getProductosH = async() => {
         comprar.classList.add('btn','btn-primary','d-block','fs-2','fw-bold', 'text-uppercase', 'rounded-pill');
         contentProductH.append(comprar);
 
-        contentProductH.getElementsByTagName("button")[0].addEventListener("click", () => addCarrito(producto))
+        contentProductH.getElementsByTagName("button")[0].addEventListener("click", () => addCarrito(producto));
     });
 };
 
@@ -41,7 +41,7 @@ const getProductosM = async() => {
     
     dataProductosM.forEach(( producto ) => {
         const contentProductMujer = document.createElement('div');
-        contentProductMujer.classList.add('col-12', 'col-md-4', 'card', 'my-3', 'py-3');
+        contentProductMujer.classList.add('col-12', 'col-md-6', 'col-xl-4', 'card', 'my-3', 'py-3');
         contentProductMujer.innerHTML = `
             
                 <img class="card-img-top" src="${producto.imagen}" alt="air force">
@@ -58,6 +58,8 @@ const getProductosM = async() => {
         comprar.innerHTML = `Comprar <i class="bi bi-cart4"></i>`
         comprar.classList.add('btn','btn-primary','d-block','fs-2','fw-bold', 'text-uppercase', 'rounded-pill');
         contentProductMujer.append(comprar);
+
+        contentProductMujer.getElementsByTagName("button")[0].addEventListener("click", () => addCarrito(producto));
     });
 };
 
@@ -69,7 +71,7 @@ const getProductosN = async() => {
     
     dataProductosN.forEach(( producto ) => {
         const contentProductNino = document.createElement('div');
-        contentProductNino.classList.add('col-12', 'col-md-4', 'card', 'my-3', 'py-3');
+        contentProductNino.classList.add('col-12', 'col-md-6', 'col-xl-4', 'card', 'my-3', 'py-3');
         contentProductNino.innerHTML = `
             
                 <img class="card-img-top" src="${producto.imagen}" alt="air force">
@@ -86,6 +88,8 @@ const getProductosN = async() => {
         comprar.innerHTML = `Comprar <i class="bi bi-cart4"></i>`
         comprar.classList.add('btn','btn-primary','d-block','fs-2','fw-bold', 'text-uppercase', 'rounded-pill');
         contentProductNino.append(comprar);
+
+        contentProductNino.getElementsByTagName("button")[0].addEventListener("click", () => addCarrito(producto));
     });
 };
 
@@ -97,7 +101,7 @@ const getProductosO = async() => {
     
     dataProductosO.forEach(( producto ) => {
         const contentProductOferta = document.createElement('div');
-        contentProductOferta.classList.add('col-12', 'col-md-4', 'card', 'my-3', 'py-3');
+        contentProductOferta.classList.add('col-12', 'col-md-6', 'col-xl-4', 'card', 'my-3', 'py-3');
         contentProductOferta.innerHTML = `
             
                 <img class="card-img-top" src="${producto.imagen}" alt="air force">
@@ -114,6 +118,8 @@ const getProductosO = async() => {
         comprar.innerHTML = `Comprar <i class="bi bi-cart4"></i>`
         comprar.classList.add('btn','btn-primary','d-block','fs-2','fw-bold', 'text-uppercase', 'rounded-pill');
         contentProductOferta.append(comprar);
+
+        contentProductOferta.getElementsByTagName("button")[0].addEventListener("click", () => addCarrito(producto));
     });
 };
 
