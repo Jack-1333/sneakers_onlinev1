@@ -1,5 +1,8 @@
-// import {mostrarHombre} from './addProductsHombre.js'
-// import {mostrarMujer} from './addProductsMujer.js'
+import {getProductosH} from './paintProductsMen.js';
+import {getProductosM} from './paintProductsWomen.js';
+import {getProductosN} from './paintProductsChildren.js';
+import {getProductosO} from './paintProductsOffers.js';
+
 
 document.addEventListener('DOMContentLoaded', () => { 
     initApp();
@@ -9,9 +12,10 @@ function initApp() {
     // fixedNavigation();
     hambugerMenu();
     mostrarFiltro();
-    // mostrarHombre();
-    // mostrarMujer();
-
+    getProductosH();
+    getProductosM();
+    getProductosN();
+    getProductosO();
 }
 
 
@@ -45,17 +49,11 @@ function mostrarFiltro() {
         contentAside.classList.remove("content-aside");
         openFiltro.classList.toggle('open-filtro');
         closeFiltro.classList.toggle('close-filtro');
-        zoom.classList.remove("col-12");
-        zoom.classList.add("col-10");
-        contentAside.classList.remove("col-2");
-        contentAside.classList.add("col-12");
-        contentAside.classList.add("col-md-2");
-        contentAside.classList.remove("col-md-12");
+        zoom.classList.remove('col-12', 'col-lg-12');
+        contentAside.classList.remove('col-2');
+        contentAside.classList.add('col-12', 'col-lg-2');
         zoom.classList.add('d-none')
-        zoom.classList.add('d-md-block')
-
-
-
+        zoom.classList.add('d-lg-block', 'col-lg-10')
     });
 
     closeFiltro.addEventListener("click", () => {
@@ -63,12 +61,8 @@ function mostrarFiltro() {
         openFiltro.classList.toggle('open-filtro');
         closeFiltro.classList.toggle('close-filtro');
         zoom.classList.remove("col-10");
-        zoom.classList.add("col-12");
-        zoom.classList.remove('d-none')
-        zoom.classList.add('d-block')
-        contentAside.classList.add("col-2");
-        contentAside.classList.remove("col-12");
-
+        zoom.classList.add('col-12', 'col-lg-12');
+        zoom.classList.remove('d-none', 'col-lg-10')
         
     });
 }

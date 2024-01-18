@@ -12291,10 +12291,6 @@ textarea.form-control-lg {
   display: none;
 }
 
-.content-productosT {
-  display: none;
-}
-
 #openfiltro,
 #closefiltro {
   cursor: pointer;
@@ -12385,6 +12381,28 @@ textarea.form-control-lg {
   text-align: center;
   position: absolute;
   z-index: 8;
+}
+
+.abrircarrito {
+  cursor: pointer;
+}
+
+.product_title {
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  .product_title {
+    font-size: 3rem;
+  }
+}
+
+.filtro-title {
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  .filtro-title {
+    font-size: 2.5rem;
+  }
 }
 
 .edit-boton-carrito {

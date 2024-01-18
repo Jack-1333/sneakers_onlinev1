@@ -41,10 +41,10 @@
     display: none;
     // visibility: hidden;
 }
-.content-productosT {
-    display: none;
-    // visibility: hidden;
-}
+// .content-productosT {
+//     display: none;
+//     // visibility: hidden;
+// }
 
 #openfiltro,
 #closefiltro {
@@ -137,4 +137,26 @@
     z-index: 8;
     
 
+}
+
+.abrircarrito {
+    cursor: pointer;
+}
+.product_title {
+    font-size: 1.5rem;
+    @include m.tablet {
+        font-size: 3rem;
+    }
+    // @include m.desktop {
+    //     font-size: 3.5rem;
+    // }
+}
+.filtro-title {
+    font-size: 1.5rem;
+    @include m.tablet {
+        font-size: 2.5rem;
+    }
+    // @include m.desktop {
+    //     font-size: 3rem;
+    // }
 }
