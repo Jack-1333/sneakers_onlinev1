@@ -4,7 +4,8 @@
         "marca": "Adidas",
         "modelo": "Zapatillas Senderismo Terrex",
         "genero": "Hombre",
-        "precio": 220,
+        "precio": 350,
+        "talla": 7,
         "imagen": "../img/productos_adidas/hombre/1_Zapatillas_de_Senderismo_Terrex_AX4_Turquesa_IF4870_01_standard.jpg"
     },
     {
@@ -13,6 +14,7 @@
         "modelo": "Zapatillas Fultbol",
         "genero": "Hombre",
         "precio": 120,
+        "talla":10.5,
         "imagen": "../img/productos_adidas/hombre/2_chimpunes-de-futbol-copa-gloro-cancha-cubierta.jpg"
     },
     {
@@ -20,7 +22,8 @@
         "marca": "Adidas",
         "modelo": "Zapatillas USA 84 Negro",
         "genero": "Hombre",
-        "precio": 150,
+        "precio": 210,
+        "talla": 10,
         "imagen": "../img/productos_adidas/hombre/3_Zapatillas_USA_84_Negro.jpg"
     },
     {
@@ -28,7 +31,8 @@
         "marca": "Adidas",
         "modelo": "Zapatillas Response Blanco",
         "genero": "Hombre",
-        "precio": 250,
+        "precio": 370,
+        "talla": 11.5,
         "imagen": "../img/productos_adidas/hombre/4_Zapatillas_Response_Blanco_IF7252_01_standard.jpg"
     },
     {
@@ -36,7 +40,8 @@
         "marca": "Adidas",
         "modelo": "Zapatillas Campus Plomo",
         "genero": "Hombre",
-        "precio": 260,
+        "precio": 545,
+        "talla": 11.5,
         "imagen": "../img/productos_adidas/hombre/5_Zapatillas_Campus_00s_Youth_of_Paris_Plomo_IE8349_01_standard.jpg"
     },
     {
@@ -44,7 +49,8 @@
         "marca": "Adidas",
         "modelo": "Zapatillas Forum Low",
         "genero": "Hombre",
-        "precio": 280,
+        "precio": 620,
+        "talla": 10.5,
         "imagen": "../img/productos_adidas/hombre/6_zapatillas-forum-low.jpg"
     },
     {
@@ -52,7 +58,8 @@
         "marca": "Adidas",
         "modelo": "Zapatillas Racer Plomo",
         "genero": "Hombre",
-        "precio": 300,
+        "precio": 700,
+        "talla": 10,
         "imagen": "../img/productos_adidas/hombre/7_Zapatillas_Lite_Racer_Rebold_Plomo_GX4220_01_standard.jpg"
     },
     {
@@ -61,6 +68,7 @@
         "modelo": "Zapatillas Futbol Gazelle",
         "genero": "Hombre",
         "precio": 120,
+        "talla": 9.5,
         "imagen": "../img/productos_adidas/hombre/8_zapatillas-gazelle-fpf.jpg"
     },
     {
@@ -68,7 +76,8 @@
         "marca": "Adidas",
         "modelo": "Zapatillas Ubana",
         "genero": "Hombre",
-        "precio": 180,
+        "precio": 420,
+        "talla": 9,
         "imagen": "../img/productos_adidas/hombre/9_zapatillas-nmd_r1.jpg"
     },
     {
@@ -76,7 +85,8 @@
         "marca": "Nike",
         "modelo": "Aire Force",
         "genero": "Hombre",
-        "precio": 260,
+        "precio": 280,
+        "talla": 7,
         "imagen": "../img/productos_nike/hombre/1_Nike_Air_Force_1_07_LX.jpg"
     },
     {
@@ -84,7 +94,8 @@
         "marca": "Nike",
         "modelo": "Aire Force",
         "genero": "Hombre",
-        "precio": 280,
+        "precio": 410,
+        "talla": 8,
         "imagen": "../img/productos_nike/hombre/2_Nike_Air_Force_1_High_07.jpg"
     },
     {
@@ -92,7 +103,8 @@
         "marca": "Nike",
         "modelo": "Air Max",
         "genero": "Hombre",
-        "precio": 350,
+        "precio": 520,
+        "talla": 7.5,
         "imagen": "../img/productos_nike/hombre/3_Nike_Air_Max_1_1.jpg"
     },
     {
@@ -100,7 +112,8 @@
         "marca": "Nike",
         "modelo": "Air Max",
         "genero": "Hombre",
-        "precio": 350,
+        "precio": 520,
+        "talla": 7.5,
         "imagen": "../img/productos_nike/hombre/4_Nike_Air_Max_1.jpg"
     },
     {
@@ -108,7 +121,8 @@
         "marca": "Nike",
         "modelo": "Blazer Low",
         "genero": "Hombre",
-        "precio": 380,
+        "precio": 630,
+        "talla": 8.5,
         "imagen": "../img/productos_nike/hombre/5_Nike_Blazer_Low_77_Jumbo.jpg"
     },
     {
@@ -116,7 +130,8 @@
         "marca": "Nike",
         "modelo": "Blazer Low",
         "genero": "Hombre",
-        "precio": 380,
+        "precio": 630,
+        "talla": 8.5,
         "imagen": "../img/productos_nike/hombre/6_Nike_Blazer_Low_77_Jumbo_1.jpg"
     },
     {
@@ -125,6 +140,7 @@
         "modelo": "Dunk Low Retro",
         "genero": "Hombre",
         "precio": 350,
+        "talla": 11,
         "imagen": "../img/productos_nike/hombre/7_Nike_Dunk_Low_Retro_Premium.jpg"
     },
     {
@@ -132,7 +148,8 @@
         "marca": "Nike",
         "modelo": "Dunk Low Retro",
         "genero": "Hombre",
-        "precio": 320,
+        "precio": 315,
+        "talla": 12,
         "imagen": "../img/productos_nike/hombre/8_Nike_Dunk_Low_Retro.jpg"
     },
     {
@@ -141,6 +158,7 @@
         "modelo": "Dunk Low",
         "genero": "Hombre",
         "precio": 270,
+        "talla": 13,
         "imagen": "../img/productos_nike/hombre/9_Nike_Dunk_Low_Retro1.jpg"
     }
 ]

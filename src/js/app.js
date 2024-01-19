@@ -18,9 +18,6 @@ function initApp() {
     getProductosO();
 }
 
-
-
-
 // function fixedNavigation () {
 //     const bar = document.querySelector('.header');
 //     const categoria = document.querySelector('.multimedia');

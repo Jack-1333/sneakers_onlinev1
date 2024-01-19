@@ -4,7 +4,7 @@
         "marca": "Adidas",
         "modelo": "Aire Force",
         "genero": "Hombre",
-        "precio": 110,
+        "precio": 350,
         "imagen": "../img/productos_adidas/hombre/1_Zapatillas_de_Senderismo_Terrex_AX4_Turquesa_IF4870_01_standard.jpg"
     },
     {
@@ -20,7 +20,7 @@
         "marca": "Adidas",
         "modelo": "Aire Force2",
         "genero": "Hombre",
-        "precio": 130,
+        "precio": 210,
         "imagen": "../img/productos_adidas/hombre/3_Zapatillas_USA_84_Negro.jpg"
     },
     {
@@ -28,7 +28,7 @@
         "marca": "Adidas",
         "modelo": "Aire Force",
         "genero": "Mujer",
-        "precio": 110,
+        "precio": 370,
         "imagen": "../img/productos_adidas/mujer/4_Zapatillas_Response_Verde_IG0331_01_standard.jpg"
     },
     {
@@ -36,7 +36,7 @@
         "marca": "Adidas",
         "modelo": "Aire Force2",
         "genero": "Mujer",
-        "precio": 120,
+        "precio": 545,
         "imagen": "../img/productos_adidas/mujer/5_zapatillas-forum-mid.jpg"
     },
     {
@@ -44,7 +44,7 @@
         "marca": "Adidas",
         "modelo": "Aire Force2",
         "genero": "Mujer",
-        "precio": 130,
+        "precio": 620,
         "imagen": "../img/productos_adidas/mujer/6_zapatillas-gazelle.jpg"
     },
     {
@@ -52,7 +52,7 @@
         "marca": "Adidas",
         "modelo": "Aire Force",
         "genero": "Niño",
-        "precio": 110,
+        "precio": 700,
         "imagen": "../img/productos_adidas/nino/7_Zapatillas_Tensaur_Tira_Ajustable_de_Cierre_por_Contacto_Blanco_H06301_01_standard.jpg"
     },
     {
@@ -65,10 +65,10 @@
     },
     {
         "id": 49,
-        "marca": "Adidas",
+        "marca": "Nike",
         "modelo": "Aire Force2",
         "genero": "Niño",
-        "precio": 130,
-        "imagen": "../img/productos_adidas/nino/9_Zapatillas_Tensaur_Tira_Ajustable_de_Cierre_por_Contacto_Negro_H06304_01_standard.jpg"
+        "precio": 420,
+        "imagen": "../img/productos_nike/nino/6_Nike_Blazer_Low_77.jpg"
     }
 ]

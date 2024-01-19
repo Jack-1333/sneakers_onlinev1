@@ -4,7 +4,8 @@
         "marca": "Adidas",
         "modelo": "Aire Force",
         "genero": "Mujer",
-        "precio": 110,
+        "precio": 350,
+        "talla": 7,
         "imagen": "../img/productos_adidas/mujer/1_ZAPATILLAS_EQ21_RUN.jpg"
     },
     {
@@ -13,6 +14,7 @@
         "modelo": "Aire Force2",
         "genero": "Mujer",
         "precio": 120,
+        "talla":10.5,
         "imagen": "../img/productos_adidas/mujer/2_Zapatillas_de_Trail_Running_Tracefinder_Plomo_GZ5734_01_standard.jpg"
     },
     {
@@ -20,7 +22,8 @@
         "marca": "Adidas",
         "modelo": "Aire Force2",
         "genero": "Mujer",
-        "precio": 130,
+        "precio": 210,
+        "talla": 10,
         "imagen": "../img/productos_adidas/mujer/3_Zapatillas_OZWEEGO_Rojo_HP6386_01_standard_1.jpg"
     },
     {
@@ -28,7 +31,8 @@
         "marca": "Adidas",
         "modelo": "Aire Force",
         "genero": "Mujer",
-        "precio": 110,
+        "precio": 370,
+        "talla": 11.5,
         "imagen": "../img/productos_adidas/mujer/4_Zapatillas_Response_Verde_IG0331_01_standard.jpg"
     },
     {
@@ -36,7 +40,8 @@
         "marca": "Adidas",
         "modelo": "Aire Force2",
         "genero": "Mujer",
-        "precio": 120,
+        "precio": 545,
+        "talla": 11.5,
         "imagen": "../img/productos_adidas/mujer/5_zapatillas-forum-mid.jpg"
     },
     {
@@ -44,7 +49,8 @@
         "marca": "Adidas",
         "modelo": "Aire Force2",
         "genero": "Mujer",
-        "precio": 130,
+        "precio": 620,
+        "talla": 10.5,
         "imagen": "../img/productos_adidas/mujer/6_zapatillas-gazelle.jpg"
     },
     {
@@ -52,7 +58,8 @@
         "marca": "Adidas",
         "modelo": "Aire Force",
         "genero": "Mujer",
-        "precio": 110,
+        "precio": 700,
+        "talla": 10,
         "imagen": "../img/productos_adidas/mujer/7_zapatillas-gazelle.jpg"
     },
     {
@@ -61,6 +68,7 @@
         "modelo": "Aire Force2",
         "genero": "Mujer",
         "precio": 120,
+        "talla": 9.5,
         "imagen": "../img/productos_adidas/mujer/8_zapatillas-rivalry-low-86.jpg"
     },
     {
@@ -68,7 +76,8 @@
         "marca": "Adidas",
         "modelo": "Aire Force2",
         "genero": "Mujer",
-        "precio": 130,
+        "precio": 420,
+        "talla": 9,
         "imagen": "../img/productos_adidas/mujer/9_Zapatillas_Falcon_Beige_IG8303_01_standard.jpg"
     },
     {
@@ -76,7 +85,8 @@
         "marca": "Nike",
         "modelo": "Aire Force",
         "genero": "Mujer",
-        "precio": 110,
+        "precio": 280,
+        "talla": 7,
         "imagen": "../img/productos_nike/mujer/1_Nike_Air_Force_1_LX_Nike_United.jpg"
     },
     {
@@ -84,7 +94,8 @@
         "marca": "Nike",
         "modelo": "Aire Force2",
         "genero": "Mujer",
-        "precio": 120,
+        "precio": 410,
+        "talla": 8,
         "imagen": "../img/productos_nike/mujer/2_Nike_Air_Force_1_Wild.jpg"
     },
     {
@@ -92,7 +103,8 @@
         "marca": "Nike",
         "modelo": "Aire Force2",
         "genero": "Mujer",
-        "precio": 130,
+        "precio": 520,
+        "talla": 7.5,
         "imagen": "../img/productos_nike/mujer/3_Nike_Air_Max_1_LX.jpg"
     },
     {
@@ -100,7 +112,8 @@
         "marca": "Nike",
         "modelo": "Aire Force",
         "genero": "Mujer",
-        "precio": 110,
+        "precio": 520,
+        "talla": 7.5,
         "imagen": "../img/productos_nike/mujer/4_Nike_Air_Max_270.jpg"
     },
     {
@@ -108,7 +121,8 @@
         "marca": "Nike",
         "modelo": "Aire Force2",
         "genero": "Mujer",
-        "precio": 120,
+        "precio": 630,
+        "talla": 8.5,
         "imagen": "../img/productos_nike/mujer/5_Nike_Dunk_Low_Premium_MF.jpg"
     },
     {
@@ -116,7 +130,8 @@
         "marca": "Nike",
         "modelo": "Aire Force2",
         "genero": "Mujer",
-        "precio": 130,
+        "precio": 630,
+        "talla": 8.5,
         "imagen": "../img/productos_nike/mujer/6_Nike_Dunk_Low_Premium.jpg"
     },
     {
@@ -124,7 +139,8 @@
         "marca": "Nike",
         "modelo": "Aire Force",
         "genero": "Mujer",
-        "precio": 110,
+        "precio": 350,
+        "talla": 11,
         "imagen": "../img/productos_nike/mujer/7_Nike_Dunk_Low_Twist.jpg"
     },
     {
@@ -132,7 +148,8 @@
         "marca": "Nike",
         "modelo": "Aire Force2",
         "genero": "Mujer",
-        "precio": 120,
+        "precio": 315,
+        "talla": 12,
         "imagen": "../img/productos_nike/mujer/8_Nike_Dunk_Low.jpg"
     },
     {
@@ -140,7 +157,8 @@
         "marca": "Nike",
         "modelo": "Aire Force2",
         "genero": "Mujer",
-        "precio": 130,
+        "precio": 270,
+        "talla": 13,
         "imagen": "../img/productos_nike/mujer/9_Nike_Dunk_Low2.jpg"
     }
 ]
