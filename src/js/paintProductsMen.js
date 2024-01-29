@@ -67,7 +67,6 @@ export const getProductosH = async() => {
                         </div>
                 `;
             contenidoHombre.appendChild(contentProductH);
-    
             const comprar = document.createElement("button");
             comprar.innerHTML = `Comprar <i class="bi bi-cart4"></i>`
             comprar.classList.add('btn','btn-primary','d-block','fs-2','fw-bold', 'text-uppercase', 'rounded-pill');
